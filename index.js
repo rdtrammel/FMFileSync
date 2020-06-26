@@ -1,6 +1,6 @@
-var express = require('express');
-
-var app = express();
+const express = require('express');
+const app = express();
+const port = 5000;
 
 app.get('/', function (request, response) {
 
@@ -9,6 +9,6 @@ app.get('/', function (request, response) {
   response.end(params);
 });
 
-app.listen(5000,function(){ 
+app.listen(port, function(){ 
   console.log('App listening on port 5000!' );
 });

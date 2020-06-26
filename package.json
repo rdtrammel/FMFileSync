@@ -8,12 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rdtrammel/fileWatcher.git"
+    "url": "git+https://github.com/rdtrammel/fileWatcher.git"
   },
   "keywords": [
     "filemaker",
     "microservice"
   ],
   "author": "Robert Trammel",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rdtrammel/fileWatcher/issues"
+  },
+  "homepage": "https://github.com/rdtrammel/fileWatcher#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
