@@ -10,5 +10,5 @@ app.get('/', function (request, response) {
 });
 
 app.listen(port, function(){ 
-  console.log('App listening on port 5000!' );
+  console.log("Ready to start watching Files");
 });
