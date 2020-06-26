@@ -1,0 +1,19 @@
+{
+  "name": "filewatcher",
+  "version": "1.0.0",
+  "description": "Microservice for pushing and pulling project files  into FileMaker",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rdtrammel/fileWatcher.git"
+  },
+  "keywords": [
+    "filemaker",
+    "microservice"
+  ],
+  "author": "Robert Trammel",
+  "license": "MIT"
+}
